@@ -32,7 +32,7 @@ namespace IdentityServer
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("This is the IdentityServer!");
             });
         }
     }
